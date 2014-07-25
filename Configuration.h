@@ -13,7 +13,7 @@
 // Gen 3 Plus = 21
 // gen 3  Monolithic Electronics = 22
 // Gen3 PLUS for TechZone Gen3 Remix Motherboard = 23
-#define MOTHERBOARD 3
+#define MOTHERBOARD 33
 
 //// Thermistor settings:
 // 1 is 100k thermistor
@@ -28,7 +28,7 @@
 
 //// Calibration variables
 // X, Y, Z, E steps per unit - Metric Prusa Mendel with Wade extruder:
-float axis_steps_per_unit[] = {80, 80, 2560,777.6}; 
+float axis_steps_per_unit[] = {63.368, 65.795, 2275.6,777.6}; 
 //float axis_steps_per_unit[] = {5, 5, 2560,568.18}; 
 // Metric Prusa Mendel with Makergear geared stepper extruder:
 //float axis_steps_per_unit[] = {80,80,3200/1.25,1380}; 
