@@ -24,12 +24,12 @@
 // 6 is EPCOS 100k
 // 7 is 100k Honeywell thermistor 135-104LAG-J01
 #define THERMISTORHEATER 7
-#define THERMISTORBED 2
+#define THERMISTORBED 7
 
 //// Calibration variables
 // X, Y, Z, E steps per unit - Metric Prusa Mendel with Wade extruder:
-float axis_steps_per_unit[] = {63.368, 65.795, 2275.6,777.6}; 
-//float axis_steps_per_unit[] = {5, 5, 2560,568.18}; 
+float axis_steps_per_unit[] = {63.368, 65.795, 2275.6,761.23}; 
+
 // Metric Prusa Mendel with Makergear geared stepper extruder:
 //float axis_steps_per_unit[] = {80,80,3200/1.25,1380}; 
 // MakerGear Hybrid Prusa Mendel:
